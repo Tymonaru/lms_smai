@@ -51,17 +51,6 @@
         </div>     
       @enderror
     </div>
-  <div class="col-md-4">
-    <div class="form-floating">
-        {!! Form::date('tgl_lahir',null,['class' => 'form-control'.(($errors->has('tgl_lahir'))?" border-danger":""), 'id'=>'floatingName','placeholder'=>'Tanggal Lahir','autocomplete'=>'off']) !!}
-      <label for="floatingName">Deadline</label>
-    </div>
-    @error('tgl_lahir')
-      <div class="invalid-feedback" style="display:block;">
-        {{$errors->first('tgl_lahir')}}
-      </div>     
-    @enderror
-  </div>  
   <div class="col-md-12">
     <div class="row mb-3">
       <label for="inputNumber" class="col-form-label">Upload Materi</label>

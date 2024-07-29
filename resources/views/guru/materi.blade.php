@@ -37,7 +37,7 @@
                   <th scope="col">Pertemuan</th>
                   <th scope="col">Materi</th>
                   <th scope="col">Kelas</th>
-                  <th scope="col">Tanggal</th>
+                  <th scope="col">Diupload pada</th>
                   <th scope="col" class="text-center">Aksi</th>
                 </tr>
               </thead>
